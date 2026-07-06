@@ -109,7 +109,7 @@ class PBKDF2Details {
     var saltLength = 20
     var iterationCount = 16384
     var keySize = 256
-    var prf = sha1
+    var prf = sha256
 }
 
 class BasePBKDFDetails {
